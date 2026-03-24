@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react'
 const Portfolio = () => {
     return (
         <section className='w-full min-h-screen bg-background pb-10'>
-            <div className='w-full max-w-7xl mx-auto px-6 md:px-10 lg:px-16 pt-28 pb-32 text-foreground'>
+            <div className='w-full max-w-7xl mx-auto px-6 md:px-10 lg:px-16 pt-28 pb-14 lg:pb-32 text-foreground'>
                 <h1 className='text-4xl md:text-9xl font-bold text-center'>Case studies</h1>
             </div>
             <div className='w-full max-w-7xl mx-auto px-6 md:px-10 lg:px-16 pb-32 text-foreground'>
@@ -15,8 +15,8 @@ const Portfolio = () => {
                         </Link>
                         <div className='mt-4'>
                             <h2 className='text-2xl font-bold mb-3'>Project 1</h2>
-                            <p className='text-sm text-muted-foreground'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, cum placeat odio eveniet impedit fugiat ratione minus harum voluptate molestiae.</p>
-                            <p className='text-sm text-muted-foreground mt-5 font-semibold'>Branding / Graphic Design</p>
+                            <p className='text-base md:text-[18px] leading-relaxed max-w-xl text-muted-foreground'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, cum placeat odio eveniet impedit fugiat ratione minus harum voluptate molestiae.</p>
+                            <p className='text-base md:text-[18px] leading-relaxed max-w-xl text-muted-foreground mt-5 font-semibold'>Branding / Graphic Design</p>
                         </div>
                     </div>
                     <div className='rounded-sm col-span-1 hover:opacity-80 transition-opacity duration-300'>
@@ -25,8 +25,8 @@ const Portfolio = () => {
                         </Link>
                         <div className='mt-4'>
                             <h2 className='text-2xl font-bold mb-3'>Project 2</h2>
-                            <p className='text-sm text-muted-foreground'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, cum placeat odio eveniet impedit fugiat ratione minus harum voluptate molestiae.</p>
-                            <p className='text-sm text-muted-foreground mt-5 font-semibold'>Branding / Graphic Design</p>
+                            <p className='text-base md:text-[18px] leading-relaxed max-w-xl text-muted-foreground'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, cum placeat odio eveniet impedit fugiat ratione minus harum voluptate molestiae.</p>
+                            <p className='text-base md:text-[18px] leading-relaxed max-w-xl text-muted-foreground mt-5 font-semibold'>Branding / Graphic Design</p>
                         </div>
                     </div>
                     <div className='rounded-sm col-span-1 hover:opacity-80 transition-opacity duration-300'>
@@ -35,8 +35,8 @@ const Portfolio = () => {
                         </Link>
                         <div className='mt-4'>
                             <h2 className='text-2xl font-bold mb-3'>Project 2</h2>
-                            <p className='text-sm text-muted-foreground'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, cum placeat odio eveniet impedit fugiat ratione minus harum voluptate molestiae.</p>
-                            <p className='text-sm text-muted-foreground mt-5 font-semibold'>Branding / Graphic Design</p>
+                            <p className='text-base md:text-[18px] leading-relaxed max-w-xl text-muted-foreground'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, cum placeat odio eveniet impedit fugiat ratione minus harum voluptate molestiae.</p>
+                            <p className='text-base md:text-[18px] leading-relaxed max-w-xl text-muted-foreground mt-5 font-semibold'>Branding / Graphic Design</p>
                         </div>
                     </div>
                     <div className='rounded-sm col-span-1 hover:opacity-80 transition-opacity duration-300'>
@@ -45,8 +45,8 @@ const Portfolio = () => {
                         </Link>
                         <div className='mt-4'>
                             <h2 className='text-2xl font-bold mb-3'>Project 2</h2>
-                            <p className='text-sm text-muted-foreground'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, cum placeat odio eveniet impedit fugiat ratione minus harum voluptate molestiae.</p>
-                            <p className='text-sm text-muted-foreground mt-5 font-semibold'>Branding / Graphic Design</p>
+                            <p className='text-base md:text-[18px] leading-relaxed max-w-xl text-muted-foreground'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, cum placeat odio eveniet impedit fugiat ratione minus harum voluptate molestiae.</p>
+                            <p className='text-base md:text-[18px] leading-relaxed max-w-xl text-muted-foreground mt-5 font-semibold'>Branding / Graphic Design</p>
                         </div>
                     </div>
                 </div>

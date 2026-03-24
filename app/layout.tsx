@@ -1,21 +1,14 @@
 // For adding custom fonts with other frameworks, see:
 // https://tailwindcss.com/docs/font-family
 import type { Metadata } from "next";
-import { Poppins, Lora, IBM_Plex_Mono, Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
-const inter = Inter({subsets:['latin'],variable:'--font-sans'});
-
-const fontSerif = Lora({
-  subsets: ["latin"],
-  variable: "--font-serif",
-});
-
-const fontMono = IBM_Plex_Mono({
+const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
-  variable: "--font-mono",
+  variable: "--font-sans",
   display: "swap",
 });
 
@@ -30,8 +23,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={cn("font-sans", inter.variable)}>
-      <body className={`${inter.variable} ${fontSerif.variable} ${fontMono.variable} antialiased`}>
+    <html
+      lang="en"
+      className={cn("font-sans", poppins.variable)}
+    >
+      <body className="antialiased">
         {children}
       </body>
     </html>
