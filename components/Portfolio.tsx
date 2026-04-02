@@ -23,8 +23,8 @@ const caseStudies: CaseStudy[] = [
     },
     {
         href: '/',
-        imageSrc: '/vfd-case-study.jpeg',
-        imageAlt: 'vfd bank',
+        imageSrc: '/vfdvisual.jpeg',
+        imageAlt: 'vfdbank',
         title: 'VFD Bank',
         description:
             'We were responsible for Building VFD microfinance Bank X page to over 10k followers from 100',
