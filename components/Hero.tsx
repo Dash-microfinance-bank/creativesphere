@@ -1,6 +1,5 @@
 import { ArrowRight } from 'lucide-react'
 import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
 
 const logos = [
@@ -22,7 +21,7 @@ const Hero = () => {
                         <p className='text-base md:text-base text-center text-muted-foreground'>We help businesses find their voice, and make sure the world hears it. Through bold design, storytelling, and smart tech, we craft experiences that look good and feel right, building strategies that go beyond luck in a crowded market.</p>
                     </div>
                     <div className='flex justify-center mt-10'>
-                        <Link href='https://www.google.com' target='_blank' className=' bg-black text-white px-10 py-4 rounded-full flex items-center gap-2 justify-center text-sm font-medium hover:bg-black/80 transition-colors duration-300'>Get in touch <ArrowRight className='w-4 h-4' /></Link>
+                        <a href='mailto:inthecreativesphere@gmail.com' target='_blank' className=' bg-black text-white px-10 py-4 rounded-full flex items-center gap-2 justify-center text-sm font-medium hover:bg-black/80 transition-colors duration-300'>Get in touch <ArrowRight className='w-4 h-4' /></a>
                     </div>
                     <div className='mt-12 relative overflow-hidden'>
                         <div className='pointer-events-none absolute inset-y-0 left-0 w-16 bg-linear-to-r from-background to-transparent z-10' />

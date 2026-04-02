@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="w-full max-w-7xl mx-auto px-6 md:px-10 lg:px-16">
           <h2 className="text-5xl md:text-8xl font-bold text-center leading-tight md:leading-none">Let&apos;s build something great together</h2>
           <div className="flex justify-center mt-16 lg:mt-20">
-            <Link href='https://www.google.com' target='_blank' className=' bg-black text-white px-10 py-4 rounded-full flex items-center gap-2 justify-center text-sm font-medium hover:bg-black/80 transition-colors duration-300'>Get in touch <ArrowRight className='w-4 h-4' /></Link>
+            <a href='mailto:inthecreativesphere@gmail.com' target='_blank' className=' bg-black text-white px-10 py-4 rounded-full flex items-center gap-2 justify-center text-sm font-medium hover:bg-black/80 transition-colors duration-300'>Get in touch <ArrowRight className='w-4 h-4' /></a>
           </div>
         </div>
       </div>
@@ -80,21 +80,21 @@ const Footer = () => {
                 <li>
                   Work:{" "}
                   <a
-                    href="mailto:support@creativesphere.com"
+                    href="mailto:inthecreativesphere@gmail.com"
                     className="underline-offset-2 hover:underline"
                   >
-                    support@creativesphere.com
+                    inthecreativesphere@gmail.com
                   </a>
                 </li>
-                {/* <li>
-                  Partnerships:{" "}
+                <li>
+                  Call:{" "}
                   <a
-                    href="mailto:partner@creativesphere.com"
+                    href="tel:09057051623"
                     className="underline-offset-2 hover:underline"
                   >
-                    partner@creativesphere.com
+                    09057051623
                   </a>
-                </li> */}
+                </li>
                 <li>Business hours: Mon-Fri, 9:00-18:00</li>
               </ul>
             </div>

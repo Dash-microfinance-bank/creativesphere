@@ -1,5 +1,4 @@
 import { ArrowRight } from 'lucide-react';
-import Link from 'next/link';
 
 const services = () => {
     return (
@@ -123,7 +122,7 @@ const services = () => {
                 </div>
             </div>
             <div className='flex justify-center mt-24'>
-                <Link href='https://www.google.com' target='_blank' className=' bg-primary text-white px-10 py-4 rounded-full flex items-center gap-2 justify-center text-sm font-medium hover:bg-primary/80 transition-colors duration-300'>Get in touch <ArrowRight className='w-4 h-4' /></Link>
+                <a href='mailto:inthecreativesphere@gmail.com' target='_blank' className=' bg-primary text-white px-10 py-4 rounded-full flex items-center gap-2 justify-center text-sm font-medium hover:bg-primary/80 transition-colors duration-300'>Get in touch <ArrowRight className='w-4 h-4' /></a>
             </div>
         </section>
     );

@@ -27,7 +27,7 @@ const Navbar = () => {
                     <div className='hidden md:flex items-center gap-4'>
                         <Link href='/' className='text-sm font-medium'>Home</Link>
                         <Link href='/' className='text-sm font-medium'>Our Works</Link>
-                        <Link href='/' className='text-sm font-medium'>Get in Touch</Link>
+                        <a href='mailto:inthecreativesphere@gmail.com' target='_blank' className='text-sm font-medium'>Get in Touch</a>
                     </div>
                     <div className='md:hidden'>
                         <button className='text-sm font-medium flex items-center gap-2' onClick={handleOpen}>menu <MenuIcon className='w-4 h-4' /></button>
@@ -41,8 +41,8 @@ const Navbar = () => {
                 <div className='w-full h-ful flex flex-col items-center justify-center gap-y-10 mt-32'>
                     <Link href='/' className='text-white text-3xl font-semibold hover:text-primary transition-colors duration-300'>Home</Link>
                     <Link href='/' className='text-base text-slate-300'>Our Works</Link>
-                    <Link href='/' className='text-slate-300'>Get in Touch</Link>
-                    <Link href='/' className='text-slate-300'>About Us</Link>
+                    <a href='mailto:inthecreativesphere@gmail.com' target='_blank' className='text-slate-300'>Get in Touch</a>
+                    {/* <Link href='/' className='text-slate-300'>About Us</Link> */}
                 </div>
             </div> : null}
         </>
